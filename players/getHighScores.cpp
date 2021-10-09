@@ -17,7 +17,6 @@ void getHighScores(std::string playerArray[], int scoreArray[]) {
 		std::cout << "Error: File not found";
 	}
 	else {
-		std::string score;
 		int arrayIndex = 0;
 		// Iterates through the file, retrieving each line into their respective array
 		for (int lineNum = 0; lineNum < 10; lineNum++) {
